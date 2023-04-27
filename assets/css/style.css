@@ -1,10 +1,32 @@
-h1 {
-  width: 76px;
-  height: 20px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+* {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: gray;
+}
+
+.menu-list {
+  list-style: none;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+.nav-logo {
+  font-weight: bold;
 }
