@@ -34,6 +34,8 @@ a {
 }
 
 .nav-logo {
+  display: flex;
+
   font-weight: 700;
   line-height: 20px;
   font-size: 18px;
@@ -48,6 +50,15 @@ a {
   background-color: #344563;
   margin-top: 4px;
 }
+/*start styling bio section*/
+.bio-content {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  padding-left: 18%;
+  padding-right: 18%;
+}
+
 @media all and (max-width: 375px) {
   .nav-bar {
     flex-direction: column;
