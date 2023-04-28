@@ -12,21 +12,39 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: gray;
+  flex-wrap: wrap;
 }
 
 .menu-list {
   list-style: none;
+  color: white;
 }
 
 .menu-item {
   display: inline-block;
   padding: 25px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
 }
 
 a {
   text-decoration: none;
+  color: #344563;
 }
+
 .nav-logo {
-  font-weight: bold;
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 18px;
+  color: #6070ff;
+}
+.mob-menu {
+  display: none;
+}
+.mob-menu-bar {
+  width: 20px;
+  height: 3px;
+  background-color: #344563;
+  margin-top: 4px;
 }
