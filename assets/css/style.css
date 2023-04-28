@@ -71,11 +71,13 @@ a {
   flex-direction: column;
   justify-content: center;
   height: auto;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+  padding-bottom: 13%;
+  padding-top: 13%;
   background-image: url(/assets/img/header_bg.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .bio-content-wrapper {
@@ -85,6 +87,12 @@ a {
 
 .bio-content .bio {
   padding-bottom: 1rem;
+}
+.bio-content-wrapper > a {
+  display: block;
+  color: #7f8cff;
+  font-size: 1rem;
+  padding-bottom: 8px;
 }
 
 .bio-content h1 {
@@ -101,6 +109,10 @@ a {
   list-style-type: none;
 }
 
+a:hover {
+  color: black;
+}
+
 @media all and (min-width: 375px) {
   .menu-list {
     display: none;
@@ -115,4 +127,3 @@ a {
     display: block;
   }
 }
-
