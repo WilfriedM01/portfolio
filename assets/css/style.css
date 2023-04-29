@@ -74,7 +74,7 @@ a {
   height: auto;
   width: 100%;
   margin: 0 auto;
-  background-image: url("/assets/img/header-mob.png");
+  background-image: url("/assets/img/header-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
