@@ -18,7 +18,7 @@ body {
 }
 
 .hero {
-  padding: 0 30px 30px 30px;
+  padding: 0 0 30px 0;
   background-color: #fff;
   border-radius: 0 0 0 4rem;
 }
@@ -27,6 +27,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 82%;
+  margin: 0 auto;
 }
 
 .menu-list {
@@ -72,16 +74,16 @@ a {
   height: auto;
   width: 100%;
   margin: 0 auto;
-  padding-bottom: 13%;
-  padding-top: 13%;
-  background-image: url(/assets/img/header_bg.png);
+  background-image: url(/assets/img/header-mob.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .bio-content-wrapper {
-  max-width: 75%;
+  max-width: 82%;
   margin: 0 auto;
+  padding-top: 24%;
+  padding-bottom: 14%;
 }
 
 .bio-content .bio {
@@ -96,7 +98,7 @@ a {
 }
 
 .bio-content h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.3;
   padding-bottom: 1rem;
@@ -122,9 +124,26 @@ a:hover {
 @media all and (min-width: 768px) {
   .mob-menu {
     display: none;
+    padding: 25px;
+    padding-right: 0;
   }
 
   .menu-list {
     display: block;
+  }
+
+  .bio-content {
+    background-image: url(/assets/img/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0 13% 0 13%;
+  }
+  .bio-content-wrapper {
+    max-width: 82%;
+    margin: 0 auto;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 15%;
+    padding-bottom: 9%;
   }
 }
