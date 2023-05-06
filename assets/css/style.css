@@ -255,7 +255,7 @@ svg {
 summary::-webkit-details-marker {
   display: none;
 }
-li {
+details > ul > li {
   list-style-type: none;
   display: flex;
   align-items: center;
