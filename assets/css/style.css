@@ -130,6 +130,18 @@ a:hover {
   padding: 0.7rem;
 }
 
+.about-me-item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  background-color: white;
+  border-top-right-radius: 4rem;
+  padding: 20% 8% 20% 8%;
+}
 .article-img {
   background-size: cover;
   width: 100%;
