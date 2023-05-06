@@ -139,8 +139,8 @@ a:hover {
   margin: 0 auto;
   margin-top: 3rem;
   background-color: white;
-  border-top-right-radius: 4rem;
-  padding: 20% 8% 20% 8%;
+  border-top-right-radius: 6rem;
+  padding: 24% 8% 24% 8%;
 }
 .article-img {
   background-size: cover;
@@ -151,6 +151,14 @@ a:hover {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+  color: #172b4d;
+  padding: 0;
+  margin: 0;
+}
+.about-me-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
   color: #172b4d;
   padding: 0;
   margin: 0;
@@ -189,10 +197,79 @@ a:hover {
   border-radius: 12px;
   background-color: #fff;
   border: 1px solid #396df2;
-
   color: #396df2;
-
   text-decoration-style: none;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.article-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+details {
+  font-size: 1rem;
+  width: 100%;
+  position: relative;
+}
+
+.summary-title {
+  user-select: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.summary-content {
+  cursor: default;
+  padding: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+summary {
+  list-style: none;
+  padding: 1rem;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.summary-chevron-up svg {
+  opacity: 0.5;
+}
+
+.summary-chevron-up,
+.summary-chevron-down {
+  pointer-events: none;
+  position: absolute;
+  top: 0.75em;
+  right: 1rem;
+  background: #ffffff;
+}
+
+svg {
+  display: block;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  background-color: #f7f7f9;
+  border-radius: 9px;
+  padding: 0.5rem;
+}
+.content-category {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 @media all and (min-width: 375px) {
