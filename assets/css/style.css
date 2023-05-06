@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #f7f7f9;
 }
 
 .container-generic {
@@ -133,7 +133,6 @@ a:hover {
 .about-me-item {
   display: flex;
   flex-direction: column;
-  flex-basis: auto;
   justify-content: center;
   width: 100%;
   margin: 0 auto;
@@ -166,7 +165,7 @@ a:hover {
   margin: 0;
 }
 
-.article-content h2 {
+.article-content h3 {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -174,7 +173,7 @@ a:hover {
   margin: 20px 0 20px 0;
 }
 
-.article-content h2 > span {
+.article-content h3 > span {
   color: #7a869a;
 }
 
@@ -182,6 +181,7 @@ a:hover {
   display: flex;
   gap: 10px;
   align-items: center;
+  list-style-type: none;
 }
 
 .article-tag {
@@ -273,6 +273,10 @@ details > ul > li {
   margin-left: 1rem;
   font-weight: 500;
   font-size: 15px;
+}
+
+.cards {
+  display: grid;
 }
 
 @media all and (min-width: 375px) {
