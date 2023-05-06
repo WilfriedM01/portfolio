@@ -142,6 +142,7 @@ a:hover {
   border-top-right-radius: 6rem;
   padding: 24% 8% 24% 8%;
 }
+
 .article-img {
   background-size: cover;
   width: 100%;
@@ -155,6 +156,7 @@ a:hover {
   padding: 0;
   margin: 0;
 }
+
 .about-me-title {
   font-weight: 700;
   font-size: 40px;
@@ -171,6 +173,7 @@ a:hover {
   color: #344563;
   margin: 20px 0 20px 0;
 }
+
 .article-content h2 > span {
   color: #7a869a;
 }
@@ -180,6 +183,7 @@ a:hover {
   gap: 10px;
   align-items: center;
 }
+
 .article-tag {
   padding: 4px 12px;
   background-color: #ebebff;
@@ -245,16 +249,17 @@ summary {
   position: absolute;
   top: 0.75em;
   right: 1rem;
-  background: #ffffff;
+  background: #fff;
 }
 
-svg {
+.summary-chevron-up svg {
   display: block;
 }
 
 summary::-webkit-details-marker {
   display: none;
 }
+
 details > ul > li {
   list-style-type: none;
   display: flex;
@@ -264,6 +269,7 @@ details > ul > li {
   border-radius: 9px;
   padding: 0.5rem;
 }
+
 .content-category {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -304,6 +310,7 @@ details > ul > li {
     padding-top: 15%;
     padding-bottom: 9%;
   }
+
   .article-item {
     display: flex;
     flex-direction: row;
@@ -318,6 +325,7 @@ details > ul > li {
     padding: 3%;
     gap: 3%;
   }
+
   .article-img {
     background-size: cover;
     width: 100%;
@@ -330,10 +338,11 @@ details > ul > li {
     border: 2px solid #396df2;
     margin-bottom: 3%;
     color: #fff;
-    box-shadow: 1px 10px 10px #aaaaaa;
+    box-shadow: 1px 10px 10px #aaa;
     text-decoration-style: none;
   }
+
   a:hover {
-    box-shadow: 1px 10px 10px #aaaaaa;
+    box-shadow: 1px 10px 10px #aaa;
   }
 }
