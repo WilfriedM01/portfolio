@@ -74,7 +74,7 @@ a {
   height: auto;
   width: 100%;
   margin: 0 auto;
-  background-image: url("./assets/img/header-mobile.png");
+  background-image: url("./../img/header-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -382,7 +382,7 @@ input {
   }
 
   .bio-content {
-    background-image: url("./assets/img/header_bg.png");
+    background-image: url("./../img/header_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 0 13% 0 13%;
@@ -431,5 +431,11 @@ input {
 
   .article-item:hover {
     box-shadow: 1px 10px 10px #aaa;
+  }
+
+  textarea,
+  input {
+    width: 447px;
+    border-radius: 2px;
   }
 }
