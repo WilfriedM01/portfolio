@@ -400,7 +400,6 @@ input {
   .article-item {
     display: flex;
     flex-direction: row;
-    flex-basis: auto;
     width: 82%;
     margin: 0 auto;
     margin-top: 3rem;
@@ -412,25 +411,58 @@ input {
     gap: 3%;
   }
 
-  .article-img {
-    background-size: cover;
+  .article-img,
+  .sub-item,
+  .article-content {
     width: 100%;
     height: 100%;
   }
 
+  .item-reverse {
+    flex-direction: row-reverse;
+  }
+
   .article-btn:hover {
-    padding: 12px;
-    border-radius: 12px;
     background-color: #396df2;
-    border: 2px solid #396df2;
-    margin-bottom: 3%;
     color: #fff;
     box-shadow: 1px 4px 4px #aaa;
-    text-decoration-style: none;
   }
 
   .article-item:hover {
-    box-shadow: 1px 10px 10px #aaa;
+    box-shadow: 1px 10px 10px #ccc;
+  }
+
+  .about-me-item {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  .grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .container {
+    display: inline-grid;
+    grid-template-rows: auto;
+    width: 122px;
+    height: 120px;
+  }
+
+  .content-category {
+    margin-left: 0;
+    margin-top: 0.5em;
+  }
+
+  .about-me-item {
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+
+  .about-me-content,
+  .skills-categorie {
+    width: 100%;
   }
 
   textarea,
