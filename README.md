@@ -127,11 +127,16 @@ Any websever
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Wilfried Muyisa**
 
 - GitHub: [@githubhandle](https://github.com/WilfriedM01)
 - Twitter: [@twitterhandle](https://twitter.com/WMuyisa)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/WMuyisa)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/wilfried-muyisa-7820b6193/)
+
+👤 **Amar Madhi**
+
+- GitHub: [@githubhandle](https://github.com/amarmahdi1112)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/amar-muha-698080178)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
