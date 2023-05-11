@@ -455,9 +455,18 @@ input {
     margin-top: 0.5em;
   }
 
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+
   .about-me-item {
     padding-top: 160px;
     padding-bottom: 160px;
+  }
+
+  .form-description {
+    width: 569px;
   }
 
   .about-me-content,
@@ -469,5 +478,12 @@ input {
   input {
     width: 447px;
     border-radius: 2px;
+    margin-top: 1em;
+  }
+
+  .form-container {
+    background-image: url("./../img/contact_form_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
