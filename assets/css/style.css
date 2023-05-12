@@ -383,6 +383,22 @@ input {
   color: #7f8cff;
 }
 
+.article-btn:hover {
+  background-color: #396df2;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.article-btn:active {
+  background-color: #5280f5;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.article-item:hover {
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
 @media all and (min-width: 375px) {
   .menu-list {
     display: none;
@@ -438,22 +454,6 @@ input {
 
   .item-reverse {
     flex-direction: row-reverse;
-  }
-
-  .article-btn:hover {
-    background-color: #396df2;
-    color: #fff;
-    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-  }
-
-  .article-btn:active {
-    background-color: #5280f5;
-    color: #fff;
-    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-  }
-
-  .article-item:hover {
-    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   }
 
   .about-me-item {
