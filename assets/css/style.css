@@ -109,6 +109,7 @@ a {
   display: flex;
   gap: 20px;
   list-style-type: none;
+  margin-bottom: 20px;
 }
 
 a:hover {
@@ -123,7 +124,6 @@ a:hover {
   width: 82%;
   margin: 0 auto;
   margin-top: 8.75rem;
-  /* margin-bottom: 3rem; */
   background-color: white;
   border: 1px solid #bac0ce;
   border-radius: 0.7rem;
@@ -218,6 +218,7 @@ details {
   font-size: 1rem;
   width: 100%;
   position: relative;
+  margin-top: 1.2rem;
 }
 
 .summary-title {
@@ -329,10 +330,6 @@ ul {
   padding-bottom: 1.5em;
 }
 
-details {
-  margin-top: 1.2rem;
-}
-
 .open-summary {
   border-bottom: none;
 }
@@ -381,10 +378,6 @@ input {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-}
-
-.social-media {
-  margin-bottom: 20px;
 }
 
 @media all and (min-width: 375px) {
