@@ -460,7 +460,7 @@ input {
     justify-content: center;
   }
 
-  .about-me-item {
+  section .about-me-item {
     padding-top: 160px;
     padding-bottom: 160px;
   }
