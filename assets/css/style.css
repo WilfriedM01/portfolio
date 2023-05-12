@@ -122,8 +122,8 @@ a:hover {
   justify-content: center;
   width: 82%;
   margin: 0 auto;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 8.75rem;
+  /* margin-bottom: 3rem; */
   background-color: white;
   border: 1px solid #bac0ce;
   border-radius: 0.7rem;
@@ -136,7 +136,7 @@ a:hover {
   justify-content: center;
   width: 100%;
   margin: 0 auto;
-  margin-top: 3rem;
+  margin-top: 8.75rem;
   background-color: white;
   border-top-right-radius: 6rem;
   padding: 24% 8% 24% 8%;
@@ -211,6 +211,7 @@ a:hover {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  padding-top: 10px;
 }
 
 details {
@@ -235,7 +236,7 @@ details {
 
 summary {
   list-style: none;
-  padding: 1rem;
+  padding: 1.5rem;
   border-bottom: 1px solid #dfe1e6;
 }
 
@@ -328,6 +329,14 @@ ul {
   padding-bottom: 1.5em;
 }
 
+details {
+  margin-top: 1.2rem;
+}
+
+.open-summary {
+  border-bottom: none;
+}
+
 textarea,
 input {
   width: 327px;
@@ -356,12 +365,26 @@ input {
   font-size: 17px;
   line-height: 24px;
   border: 1px solid #fff;
-  border-radius: 12px;
+  border-radius: 8px;
   padding: 12px;
 }
 
 .form-container ul {
   align-items: center;
+}
+
+.about-me-content .connect {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 26px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.social-media {
+  margin-bottom: 20px;
 }
 
 @media all and (min-width: 375px) {
@@ -402,8 +425,7 @@ input {
     flex-direction: row;
     width: 82%;
     margin: 0 auto;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 8.75rem;
     background-color: white;
     border: 1px solid #bac0ce;
     border-radius: 0.7rem;
@@ -422,7 +444,7 @@ input {
     flex-direction: row-reverse;
   }
 
-  .article-btn:hover {
+  .article-btn:active {
     background-color: #396df2;
     color: #fff;
     box-shadow: 1px 4px 4px #aaa;
@@ -438,6 +460,7 @@ input {
     gap: 2em;
     padding-top: 160px;
     padding-bottom: 160px;
+    margin-top: 8.75rem;
   }
 
   .grid-container {
@@ -464,6 +487,14 @@ input {
 
   .form-description {
     width: 569px;
+  }
+
+  .article-item button,
+  .about-me-content button {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    border-radius: 8px;
   }
 
   .about-me-content,
