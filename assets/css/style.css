@@ -436,6 +436,8 @@ input {
     display: flex;
     flex-direction: row;
     gap: 2em;
+    padding-top: 160px;
+    padding-bottom: 160px;
   }
 
   .grid-container {
@@ -458,11 +460,6 @@ input {
   .button {
     display: flex;
     justify-content: center;
-  }
-
-  section .about-me-item {
-    padding-top: 160px;
-    padding-bottom: 160px;
   }
 
   .form-description {
