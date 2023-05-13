@@ -387,6 +387,7 @@ input {
   background-color: #396df2;
   color: #fff;
   box-shadow: 0 9px 16px rgba(64, 83, 252, 0.24);
+  transition: all 0.5s ease-in-out;
 }
 
 .article-btn:active {
