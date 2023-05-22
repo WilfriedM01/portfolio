@@ -401,6 +401,8 @@ input {
   transition: all 0.5s ease-in-out;
 }
 
+/* Mobile menu  */
+
 @media all and (min-width: 375px) {
   .menu-list {
     display: none;

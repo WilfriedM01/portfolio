@@ -22,18 +22,20 @@
             <li class="menu-item"><a href="#">Contact</a></li>
           </ul>
           <div class="mob-menu">
-            <div><img src="./assets/icons/menu.svg" alt="Menu" /></div>
+            <div id="mob_menu">
+              <img src="./assets/icons/menu.svg" alt="Menu" />
+            </div>
           </div>
         </nav>
       </header>
-      <div class="mobile-menu">
-        <div class="icone-container">
-          <i class="fa-regular fa-x"></i>
+      <div class="mobile_menu" id="mobile_menu">
+        <div class="icone_container">
+          <i class="fa-regular fa-x" id="icone_container"></i>
         </div>
-        <ul>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#"></a>About</li>
-          <li><a href="#"></a>Contact</li>
+        <ul class="mob-menu">
+          <li><a href="#" class="mobile-menu-item"></a>Portfolio</li>
+          <li><a href="#" class="mobile-menu-item"></a>About</li>
+          <li><a href="#" class="mobile-menu-item"></a>Contact</li>
         </ul>
       </div>
       <section class="bio-content">
@@ -418,5 +420,6 @@
         </section>
       </section></a
     >
+    <script src="/assets/script/script.js"></script>
   </body>
 </html>
