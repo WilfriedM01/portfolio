@@ -13,3 +13,5 @@ function close() {
 function open() {
   mobile_menu.style.display = "block";
 }
+
+console.log("test");
