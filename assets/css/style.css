@@ -55,6 +55,11 @@ a {
   color: #6070ff;
 }
 
+.mob-menu {
+  padding: 25px;
+  padding-right: 0;
+}
+
 .mob-menu-bar {
   width: 20px;
   height: 3px;
@@ -419,9 +424,7 @@ input {
   color: #fff;
 }
 
-.mob-menu {
-  padding: 25px;
-  padding-right: 0;
+.mobile_menu ul {
   list-style: none;
   padding: 2rem 0 0 3rem;
   display: grid;
