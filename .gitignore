@@ -1,2 +1,5 @@
 test.md
 node_modules
+.vscode
+package-lock-old.json
+package-old.json

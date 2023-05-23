@@ -1,17 +1,20 @@
-let close_button = document.getElementById("icone_container");
-let humberger_button = document.getElementById("mob_menu");
-let mobile_menu = document.getElementById("mobile_menu");
-
-close_button.addEventListener("click", close);
-
-humberger_button.addEventListener("click", open);
+const CloseButton = document.getElementById('icone_container');
+const HumbergerButton = document.getElementById('mob_menu');
+const MobileMenu = document.getElementById('mobile_menu');
+const PortfolioButton = document.getElementById('portfolio_button');
+const AboutButton = document.getElementById('about_button');
+const ContactButton = document.getElementById('contact_buttton');
 
 function close() {
-  mobile_menu.style.display = "none";
+  MobileMenu.style.display = 'none';
 }
 
 function open() {
-  mobile_menu.style.display = "block";
+  MobileMenu.style.display = 'block';
 }
 
-console.log("test");
+CloseButton.addEventListener('click', close);
+HumbergerButton.addEventListener('click', open);
+PortfolioButton.addEventListener('click', close);
+AboutButton.addEventListener('click', close);
+ContactButton.addEventListener('click', close);

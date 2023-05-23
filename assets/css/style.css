@@ -410,22 +410,26 @@ input {
   top: 0;
   left: 0;
   opacity: 90%;
+  display: none;
 }
-.icone_container{
+
+.icone_container {
   display: flex;
   justify-content: end;
   padding-top: 1.9rem;
 }
-.fa-x{
+
+.fa-x {
   padding-right: 2.3rem;
   color: #fff;
 }
-.mob-menu{
- list-style: none;
- padding: 2rem 0 0 3rem;
- display: grid;
- grid-template-rows: auto auto auto;
- gap: 1rem;
+
+.mob-menu {
+  list-style: none;
+  padding: 2rem 0 0 3rem;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 1rem;
 }
 
 .mob-menu a {
@@ -435,8 +439,6 @@ input {
   font-weight: 600;
   cursor: pointer;
 }
-
-
 
 @media all and (min-width: 375px) {
   .menu-list {
