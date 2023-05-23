@@ -401,6 +401,46 @@ input {
   transition: all 0.5s ease-in-out;
 }
 
+/* Mobile menu  */
+.mobile_menu {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(96, 112, 255, 0.8);
+  backdrop-filter: blur(6px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  overflow-y: hidden;
+}
+
+.icone_container {
+  display: flex;
+  justify-content: end;
+  padding-top: 1.9rem;
+}
+
+.fa-x {
+  padding-right: 2.3rem;
+  color: #fff;
+}
+
+.mobile_menu ul {
+  list-style: none;
+  padding: 2rem 0 0 3rem;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 1rem;
+}
+
+.mob-menu a {
+  width: 48%;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 @media all and (min-width: 375px) {
   .menu-list {
     display: none;

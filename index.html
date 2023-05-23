@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/c7388e00c4.js"
+      crossorigin="anonymous"
+    ></script>
     <title>My portfolio</title>
   </head>
   <body>
@@ -18,10 +22,24 @@
             <li class="menu-item"><a href="#">Contact</a></li>
           </ul>
           <div class="mob-menu">
-            <div><img src="./assets/icons/menu.svg" alt="Menu" /></div>
+            <div id="mob_menu">
+              <img src="./assets/icons/menu.svg" alt="Menu" />
+            </div>
           </div>
         </nav>
       </header>
+      <div class="mobile_menu" id="mobile_menu">
+        <div class="blur_effect">
+          <div class="icone_container">
+            <i class="fa-regular fa-x" id="icone_container"></i>
+          </div>
+          <ul class="mob-menu">
+            <a href="#portafolio_section" id="portfolio_button">Portfolio</a>
+            <a href="#About_section" id="about_button">About</a>
+            <a href="#Contact_section" id="contact_buttton">Contact</a>
+          </ul>
+        </div>
+      </div>
       <section class="bio-content">
         <div class="bio-content-wrapper">
           <h1>I’m Wilfried. <br />Glad to see you!</h1>
@@ -58,7 +76,7 @@
         </div>
       </section>
     </section>
-    <section class="cards">
+    <section class="cards" id="portafolio_section">
       <a href="#" class="article-link"
         ><section class="articles">
           <article class="article-item">
@@ -169,7 +187,7 @@
       >
     </section>
     <a href="#" class="about-me-link"
-      ><section class="article">
+      ><section class="article" id="About_section">
         <article class="about-me-item">
           <div class="article-content about-me-content">
             <h2 class="about-me-title">About Myself</h2>
@@ -351,7 +369,7 @@
             </details>
           </div>
         </article>
-        <section class="form-wrap-level-one">
+        <section class="form-wrap-level-one" id="Contact_section">
           <div class="form-wrap-level-two">
             <div class="form-container">
               <h2 class="form-title">Contact me</h2>
@@ -404,5 +422,6 @@
         </section>
       </section></a
     >
+    <script src="./assets/script/script.js"></script>
   </body>
 </html>
