@@ -7,10 +7,12 @@ const ContactButton = document.getElementById('contact_buttton');
 
 function close() {
   MobileMenu.style.display = 'none';
+  document.body.style.overflow='auto';
 }
 
 function open() {
   MobileMenu.style.display = 'block';
+  document.body.style.overflow='hidden';
 }
 
 CloseButton.addEventListener('click', close);
