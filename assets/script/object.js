@@ -214,12 +214,6 @@ projects.forEach((project) => {
       >
   `;
   Worksection.append(cardDiv);
-  //console.log(project.id);
-  // const some = Worksection.childNodes;
-
-  // some.forEach((div) => {
-  //   console.log(div.innerHTML);
-  // });
 });
 
 //Modal content
@@ -255,6 +249,7 @@ seeProject.forEach((button) =>
       </div>
     </div>
     <div class="img-sub-div">
+      <img src="${pop.imageDesktop}" alt="sub-div1" class="img-height">
     </div>
     <div class="information-row-three">
       <div class="p-information-row">
@@ -278,10 +273,10 @@ seeProject.forEach((button) =>
         </div>
         <div class="SeeLive-SeeResources">
           <div class="botton-desktop-see">
-            <a href="${pop.live}"><button class="btn btn1"><i>See Live </i></button></a>
+            <a href="${pop.live}"><button class="btn btn1"><i>See Live </i><img src="${pop.icon1}"></button></a>
           </div>
           <div class="botton-desktop-see">
-            <a href="${pop.source}"><button class="btn btn2">See Source</button></a>
+            <a href="${pop.source}"><button class="btn btn2" id="${pop.id}"><i>See source</i><img src="${pop.icon}"></button></a>
           </div>
         </div>
       </div>
@@ -302,40 +297,11 @@ seeProject.forEach((button) =>
   })
 );
 
-// function setProjectData(projectElement, projectData) {
-//   const [detail1, image1, detail2, image2, detail3] = projectData.feature;
-//   const [technology1, technology2, technology3, technology4] =
-//     projectData.technologies;
-//   projectElement.querySelector("h2").textContent = projectData.name;
-//   projectElement.querySelector(".detail-1").textContent = detail1;
-//   projectElement.querySelector(".doks:nth-of-type(2) img").src = image1;
-//   projectElement.querySelector(".detail-2").textContent = detail2;
-//   projectElement.querySelector(".doks:nth-of-type(4) img").src = image2;
-//   projectElement.querySelector(".detail-3").textContent = detail3;
-//   projectElement.querySelector(".img-sub-div img").src = projectData.image;
-//   projectElement.querySelector(".p-information-row p").textContent =
-//     projectData.description;
-//   projectElement.querySelector(".tecnologia_1").textContent = technology1;
-//   projectElement.querySelector(".tecnologia_2").textContent = technology2;
-//   projectElement.querySelector(".tecnologia_3").textContent = technology3;
-//   projectElement.querySelector(".tecnologia_4").textContent = technology4;
-//   projectElement.querySelector(".btn1:nth-of-type(1)").textContent =
-//     projectData.live;
-//   projectElement.querySelector(".btn2:nth-of-type(1)").textContent =
-//     projectData.see;
-// }
-
 // Const variables
 
 const buttonSee = document.querySelectorAll(".button_see_2");
 
-const buttonSee2 = document.querySelector(".button_see_2");
-const buttonSee3 = document.querySelector(".button_see_2");
-const buttonSee4 = document.querySelector(".button_see_2");
 const model = document.getElementsByClassName("modal");
-const model2 = document.getElementsByClassName("modal");
-const model3 = document.getElementsByClassName("model");
-const model4 = document.getElementsByClassName("model");
 const mainBody = document.querySelector(".main_body");
 
 const desktopIdContainer = document.getElementById("desktop-id");
@@ -345,40 +311,30 @@ const desktopIdContainer = document.getElementById("desktop-id");
 function openModel() {
   model[0].style.display = "block";
   mainBody.style.overflow = "hidden";
-  // const projectElement1 = document.querySelector(".model");
-  // setProjectData(projectElement1, works.work_one);
 }
 function openModel2() {
-  model2[0].style.display = "block";
-  mainBody[0].style.overflow = "hidden";
-  // const projectElement2 = document.querySelector(".modal");
-  //setProjectData(projectElement2, works.work_second);
+  model[1].style.display = "block";
+  mainBody.style.overflow = "hidden";
 }
 function openModel3() {
-  model3[0].style.display = "block";
-  mainBody[0].style.overflow = "hidden";
-  const projectElement3 = document.querySelector(".model_3");
-  setProjectData(projectElement3, works.work_three);
+  model[2].style.display = "block";
+  mainBody.style.overflow = "hidden";
 }
 function openModel4() {
-  model4[0].style.display = "block";
-  mainBody[0].style.overflow = "hidden";
-  const projectElement4 = document.querySelector(".model_4");
-  setProjectData(projectElement4, works.work_four);
+  model[3].style.display = "block";
+  mainBody.style.overflow = "hidden";
 }
 function closeModels() {
   model[0].style.display = "none";
   model[1].style.display = "none";
   model[2].style.display = "none";
   model[3].style.display = "none";
-  mainBody[0].style.overflow = "auto";
+  mainBody.style.overflow = "auto";
 }
 // EventListener
 
 buttonSee[0].addEventListener("click", openModel);
-buttonSee[1].addEventListener("click", openModel);
-buttonSee[2].addEventListener("click", openModel);
-buttonSee[3].addEventListener("click", openModel);
-//desktopIdContainer.addEventListener("click", closeModels);
-
+buttonSee[1].addEventListener("click", openModel2);
+buttonSee[2].addEventListener("click", openModel3);
+// buttonSee[3].addEventListener("click", openModel);
 //buttonSee.forEach((e) => e.addEventListener("click", openModel));
