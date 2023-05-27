@@ -456,7 +456,6 @@ input {
 .model-main {
   height: auto;
   min-height: auto;
-  /* max-width: 1372px; */
   left: 0;
   top: 0;
   background-color: #fff;
@@ -551,6 +550,7 @@ input {
 .tec-links {
   margin-top: 12px;
   height: auto;
+  display: none;
 }
 
 .tec-linkss {
@@ -969,10 +969,6 @@ input {
     color: #6070ff;
     font-size: 12px;
     font-weight: 500;
-  }
-
-  .tec-links {
-    display: none;
   }
 
   .li-1 {
