@@ -421,7 +421,6 @@ input {
 }
 
 .fa-x {
-  padding-right: 2.3rem;
   color: #fff;
 }
 
@@ -849,7 +848,6 @@ input {
   }
 
   .fa-x-button {
-    margin-right: 24px;
     font-weight: 600;
     color: #344563;
     font-size: 1.2rem !important;
