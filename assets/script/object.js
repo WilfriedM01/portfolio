@@ -1,123 +1,123 @@
 const projects = [
   {
-    id: "card1",
-    title: "Tonic",
-    title1: "Tonic",
-    company: "CANOPY",
-    company1: "CANOPY",
-    icon: "./assets/icons/modal_git_icon.svg",
-    icon1: "./assets/icons/modal_export_icon.svg",
-    specialization: "Back End Dev",
-    specialization1: "Back End Dev",
-    year: "2015",
-    year1: "2015",
+    id: 'card1',
+    title: 'Tonic',
+    title1: 'Tonic',
+    company: 'CANOPY',
+    company1: 'CANOPY',
+    icon: './assets/icons/modal_git_icon.svg',
+    icon1: './assets/icons/modal_export_icon.svg',
+    specialization: 'Back End Dev',
+    specialization1: 'Back End Dev',
+    year: '2015',
+    year1: '2015',
     description:
       'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
     description1:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: {
-      tech1: "html",
-      tech4: "Ruby on rials",
-      tech2: "css",
-      tech3: "javaScript",
+      tech1: 'html',
+      tech4: 'Ruby on rials',
+      tech2: 'css',
+      tech3: 'javaScript',
     },
-    details: "See project",
-    imageMobile: "./assets/img/cards/card1.png",
-    imageDesktop: "./assets/img/cards/card1.png",
-    live: "https://wilfriedm01.github.io/",
-    source: "https://github.com/WilfriedM01/portfolio.git",
+    details: 'See project',
+    imageMobile: './assets/img/cards/card1.png',
+    imageDesktop: './assets/img/cards/card1.png',
+    live: 'https://wilfriedm01.github.io/',
+    source: 'https://github.com/WilfriedM01/portfolio.git',
   },
   {
-    id: "card2",
-    title: "Multi-Post",
-    title1: "Multi-Post",
-    company: "CANOPY",
-    company1: "FACEBOOK",
-    icon: "./assets/icons/modal_git_icon.svg",
-    icon1: "./assets/icons/modal_export_icon.svg",
+    id: 'card2',
+    title: 'Multi-Post',
+    title1: 'Multi-Post',
+    company: 'CANOPY',
+    company1: 'FACEBOOK',
+    icon: './assets/icons/modal_git_icon.svg',
+    icon1: './assets/icons/modal_export_icon.svg',
 
-    specialization: "Back End Dev",
-    specialization1: "Full Stack Dev",
-    year: "2015",
-    year1: "2015",
+    specialization: 'Back End Dev',
+    specialization1: 'Full Stack Dev',
+    year: '2015',
+    year1: '2015',
     description:
       'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
     description1:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: {
-      tech1: "html",
-      tech4: "Ruby on rials",
-      tech2: "css",
-      tech3: "javaScript",
+      tech1: 'html',
+      tech4: 'Ruby on rials',
+      tech2: 'css',
+      tech3: 'javaScript',
     },
-    details: "See project",
-    imageMobile: "./assets/img/cards/card2.png",
-    imageDesktop: "./assets/img/cards/card2.png",
-    live: "https://wilfriedm01.github.io/",
-    source: "https://github.com/WilfriedM01/portfolio.git",
+    details: 'See project',
+    imageMobile: './assets/img/cards/card2.png',
+    imageDesktop: './assets/img/cards/card2.png',
+    live: 'https://wilfriedm01.github.io/',
+    source: 'https://github.com/WilfriedM01/portfolio.git',
   },
   {
-    id: "card3",
-    title: "Tonic",
-    title1: "Facebook 360",
-    company: "CANOPY",
-    company1: "FACEBOOK 360",
-    icon: "./assets/icons/modal_git_icon.svg",
-    icon1: "./assets/icons/modal_export_icon.svg",
+    id: 'card3',
+    title: 'Tonic',
+    title1: 'Facebook 360',
+    company: 'CANOPY',
+    company1: 'FACEBOOK 360',
+    icon: './assets/icons/modal_git_icon.svg',
+    icon1: './assets/icons/modal_export_icon.svg',
 
-    specialization: "Back End Dev",
-    specialization1: "Full Stack Dev",
-    year: "2015",
-    year1: "2015",
+    specialization: 'Back End Dev',
+    specialization1: 'Full Stack Dev',
+    year: '2015',
+    year1: '2015',
     description:
       'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
     description1:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     technologies: {
-      tech1: "html",
-      tech4: "Ruby on rials",
-      tech2: "css",
-      tech3: "javaScript",
+      tech1: 'html',
+      tech4: 'Ruby on rials',
+      tech2: 'css',
+      tech3: 'javaScript',
     },
-    details: "See project",
-    imageMobile: "./assets/img/cards/card3.png",
-    imageDesktop: "./assets/img/cards/card3.png",
-    live: "https://wilfriedm01.github.io/",
-    source: "https://github.com/WilfriedM01/portfolio.git",
+    details: 'See project',
+    imageMobile: './assets/img/cards/card3.png',
+    imageDesktop: './assets/img/cards/card3.png',
+    live: 'https://wilfriedm01.github.io/',
+    source: 'https://github.com/WilfriedM01/portfolio.git',
   },
   {
-    id: "card4",
-    title: "Multi-Post<br>Stories",
-    title1: "Uber Navigation",
-    company: "CANOPY",
-    company1: "Uber",
-    icon: "./assets/icons/modal_git_icon.svg",
-    icon1: "./assets/icons/modal_export_icon.svg",
-    specialization: "Back End Dev",
-    specialization1: "Lead Developer",
-    year: "2015",
-    year1: "2018",
+    id: 'card4',
+    title: 'Multi-Post<br>Stories',
+    title1: 'Uber Navigation',
+    company: 'CANOPY',
+    company1: 'Uber',
+    icon: './assets/icons/modal_git_icon.svg',
+    icon1: './assets/icons/modal_export_icon.svg',
+    specialization: 'Back End Dev',
+    specialization1: 'Lead Developer',
+    year: '2015',
+    year1: '2018',
     description:
       'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
     description1:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     technologies: {
-      tech1: "html",
-      tech4: "Ruby on rials",
-      tech2: "css",
-      tech3: "javaScript",
+      tech1: 'html',
+      tech4: 'Ruby on rials',
+      tech2: 'css',
+      tech3: 'javaScript',
     },
-    details: "See project",
-    imageMobile: "./assets/img/cards/card4.png",
-    imageDesktop: "./assets/img/cards/card4.png",
-    live: "https://wilfriedm01.github.io/",
-    source: "https://github.com/WilfriedM01/portfolio.git",
+    details: 'See project',
+    imageMobile: './assets/img/cards/card4.png',
+    imageDesktop: './assets/img/cards/card4.png',
+    live: 'https://wilfriedm01.github.io/',
+    source: 'https://github.com/WilfriedM01/portfolio.git',
   },
 ];
 // Work section data structure
-const Worksection = document.querySelector(".work-cards");
+const Worksection = document.querySelector('.work-cards');
 projects.forEach((project) => {
-  const cardDiv = document.createElement("div");
+  const cardDiv = document.createElement('div');
   cardDiv.innerHTML = `
   <a href="#" class="article-link opacity"
         ><section class="articles">
@@ -150,16 +150,15 @@ projects.forEach((project) => {
 });
 
 // Modal content
-const body = document.querySelector("body");
-const seeProject = document.querySelectorAll(".button_see_2");
-seeProject.forEach((button) =>
-  button.addEventListener("click", (button) => {
-    const { id } = button.target;
-    const pop = projects.find((button) => button.id === id);
-    const modal = document.createElement("div");
-    modal.className = "modal";
-    const popup = document.createElement("div");
-    popup.innerHTML = `
+const body = document.querySelector('body');
+const seeProject = document.querySelectorAll('.button_see_2');
+seeProject.forEach((button) => button.addEventListener('click', (button) => {
+  const { id } = button.target;
+  const pop = projects.find((button) => button.id === id);
+  const modal = document.createElement('div');
+  modal.className = 'modal';
+  const popup = document.createElement('div');
+  popup.innerHTML = `
   <div class="model model_2 model_3 model_4">
 <div class="model-main">
   <div class="sub-div">
@@ -216,48 +215,47 @@ seeProject.forEach((button) =>
 </div>
 </div>
   `;
-    modal.appendChild(popup);
-    body.append(modal);
-    // Close the popup
-    const desktopIdContainer = document.getElementById("desktop-id");
-    function closeModels() {
-      modal.style.display = "none";
-      body.style.overflow = "auto";
-    }
-    desktopIdContainer.addEventListener("click", closeModels);
-  })
-);
+  modal.appendChild(popup);
+  body.append(modal);
+  // Close the popup
+  const desktopIdContainer = document.getElementById('desktop-id');
+  function closeModels() {
+    modal.style.display = 'none';
+    body.style.overflow = 'auto';
+  }
+  desktopIdContainer.addEventListener('click', closeModels);
+}));
 
 // Const variables
 
-const buttonSee = document.querySelectorAll(".button_see_2");
+const buttonSee = document.querySelectorAll('.button_see_2');
 
-const model = document.getElementsByClassName("modal");
-const mainBody = document.querySelector(".main_body");
+const model = document.getElementsByClassName('modal');
+const mainBody = document.querySelector('.main_body');
 
 // funtions
 
 function openModel() {
-  model[0].style.display = "block";
-  mainBody.style.overflow = "hidden";
+  model[0].style.display = 'block';
+  mainBody.style.overflow = 'hidden';
 }
 function openModel2() {
-  model[1].style.display = "block";
-  mainBody.style.overflow = "hidden";
+  model[1].style.display = 'block';
+  mainBody.style.overflow = 'hidden';
 }
 function openModel3() {
-  model[2].style.display = "block";
-  mainBody.style.overflow = "hidden";
+  model[2].style.display = 'block';
+  mainBody.style.overflow = 'hidden';
 }
 function openModel4() {
-  model[3].style.display = "block";
-  mainBody.style.overflow = "hidden";
+  model[3].style.display = 'block';
+  mainBody.style.overflow = 'hidden';
 }
 
 // EventListener
 
-buttonSee[0].addEventListener("click", openModel);
-buttonSee[1].addEventListener("click", openModel2);
-buttonSee[2].addEventListener("click", openModel3);
-buttonSee[3].addEventListener("click", openModel4);
+buttonSee[0].addEventListener('click', openModel);
+buttonSee[1].addEventListener('click', openModel2);
+buttonSee[2].addEventListener('click', openModel3);
+buttonSee[3].addEventListener('click', openModel4);
 // buttonSee.forEach((e) => e.addEventListener("click", openModel));
