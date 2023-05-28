@@ -20,3 +20,21 @@ HumbergerButton.addEventListener('click', open);
 PortfolioButton.addEventListener('click', close);
 AboutButton.addEventListener('click', close);
 ContactButton.addEventListener('click', close);
+
+// Form validation
+function Message(input, message, type) {
+  //get the element that shows the error message
+  const msgElement = input.parentNode.querySelector("span");
+  //Update the message
+  msgElement.innerText = message;
+  //change the class name of the input tag
+  //input.className = type ? "succes" : "error";
+  if (type) {
+    input.className = "succes";
+  } else {
+    input.className = "error";
+  }
+
+  return type;
+}
+
